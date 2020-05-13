@@ -115,7 +115,6 @@ h2 {
   padding: 20px;
   background: white;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -141,11 +140,16 @@ h2 {
 }
 
 .project-details {
-  width: 500px;
+  width: 50%;
 }
 
-.project-image-container {
-  width: 500px;
+.project-imageContainer {
+  width: 50%;
+}
+
+.project-image {
+  max-width: 100%;
+  width: 100%;
 }
 
 .event-list-title {
@@ -158,8 +162,8 @@ h2 {
 }
 
 .event{
-  margin: 10px;
-  width: 480px;
+  margin: 1%;
+  width: 48%;
   border-radius: 10px;
   overflow: hidden;
   flex-shrink: 0;

@@ -24,10 +24,70 @@
     .header a {
         justify-content: center;
     }
+
+    .project {
+        display: block;
+    }
+
+    .project-details {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .project-title {
+        font-size: 1.7em;
+        margin-bottom: .3em;
+    } 
+    
+    .project-course,
+    .project-date,
+    .project-url {
+        margin: .4em 0;
+    }
+
+
+    .project-course {
+        font-size: 1.2em;
+    } 
+    
+    .project-date {
+        font-size: 1em;
+    } 
+    
+    .project-url {
+        font-size: 1em;
+    }
+    
+    .project-description {
+        font-size: .8em;
+    }
+
+    .project-imageContainer {
+        width: auto;
+        text-align: center;
+    }
+
+    .event {
+        width: auto;
+        flex-shrink: initial;
+    }
+
+    .event img {
+        width: 100%;
+        position: bottom;
+    }
+
+    .event-detail {
+        margin: -3em .5em .5em;
+        padding: 1em;
+    }
 }
 
 @media screen and (max-width: 480px){
-
+    .project-details {
+        width: auto;
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 320px){
