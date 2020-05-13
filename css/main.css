@@ -13,7 +13,8 @@ ol, ul {
 }
 
 .container {
-  width: 1000px;
+  max-width: 1000px;
+  flex: 1;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
@@ -30,6 +31,7 @@ ol, ul {
   justify-content: space-between;
   align-items: center;
   height: 70px;
+  flex-wrap: wrap;
 }
 
 .header figure{
@@ -90,6 +92,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .hero-image {
@@ -112,6 +115,7 @@ h2 {
   padding: 20px;
   background: white;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -197,6 +201,7 @@ h2 {
   color: white;
   height: 150px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -256,6 +261,7 @@ h2 {
   color: white;
   background-color: #1b2127;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
