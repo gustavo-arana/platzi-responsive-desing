@@ -1,5 +1,7 @@
 @media screen and (max-width: 1024px){
-
+    .container {
+        padding: 0 1em;
+    }
 }
 
 @media screen and (max-width: 767px){
@@ -87,6 +89,26 @@
     .project-details {
         width: auto;
         font-size: 12px;
+    }
+
+    .contact {
+        height: auto;
+        padding: 1em 0;
+        display: block;
+        text-align: center;
+    }
+
+    .form-email h3{
+        margin-top: 0;
+    }
+    .form-email button {
+        margin: 1.5em auto;
+    }
+
+    .footer {
+        display: block;
+        text-align: center;
+        border: 1px solid transparent;
     }
 }
 
