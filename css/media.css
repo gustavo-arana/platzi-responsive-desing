@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
     .container {
         padding: 0 1em;
     }
@@ -26,7 +26,7 @@
     }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
     .header {
         display: block;
         height: auto;
@@ -34,6 +34,10 @@
 
     .header .header-logo {
         text-align: center;
+    }
+
+    .burger-button {
+        display: block;
     }
 
     .header ol {
@@ -47,8 +51,44 @@
 
     .header a {
         justify-content: center;
+        height: 40px;
+        font-size: 2em;
+        text-decoration: underline;
+        margin-bottom: .5em;
     }
 
+    .burger-button.is-white {
+        background-color:white;
+        color:  #1D252C;
+    }
+    
+    .menu {
+        position: fixed;
+        z-index: 3;
+        background-color: rgba(29, 37, 44, .9);
+        top: 0;
+        left: -100vw;
+        bottom: 0;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .3s;
+    }
+
+    .menu.is-active {
+        left: 0;
+    }
+
+    .portfolio {
+        padding: 0;
+    }
+
+    h2 {
+        font-size: 1.1em;
+        margin: .5em 0;
+    }
+    
     .project {
         display: block;
     }
@@ -83,7 +123,7 @@
     }
     
     .project-description {
-        font-size: .8em;
+        font-size: 1em;
     }
 
     .project-imageContainer {
@@ -91,6 +131,10 @@
         text-align: center;
     }
 
+    .event-list-title {
+        margin-left:0;
+    }
+    
     .event {
         width: auto;
         flex-shrink: initial;
@@ -115,7 +159,7 @@
 
     .project-details {
         width: auto;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .contact {
@@ -131,6 +175,12 @@
     .form-email button {
         margin: 1.5em auto;
     }
+
+    .social-link{
+        width: 40px;
+        height: 40px;
+        background-size: 100%;
+      }
 
     .footer {
         display: block;
